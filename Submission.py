@@ -8,10 +8,10 @@ print(f"{name_with_spaces.upper()}")
 
 print(f"{name_with_spaces.title()}")
 
-width = 15
+width = 30
 
-print(f"{name_with_spaces.center(width, "_").ljust(width, "_")}")
+print(f"{name_with_spaces.ljust(width, '_')}")
 
-print(f"{name_with_spaces.rjust(width, "_")}")
+print(f"{name_with_spaces.rjust(width, '_')}")
 
-print(f"{name_with_spaces.center(width, "_")}")
+print(f"{name_with_spaces.center(width, '_')}")
